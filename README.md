@@ -27,10 +27,10 @@ Le but de ce projet est de créer une application cross-plateform permettant de 
 - Utilisation d'une base de données H2 embarquée, conforme aux exigences du projet.
 
 ## Architecture Backend
-- `src\main\java...\entities\` : Contient les classes d'entités Spring Boot.
-- `src\main\java...\resources\` : Contient les classes avec les endpoints de l'API Spring Boot.
-- `src\main\java...\services\` : Contient les classes utilisées dans les ressources pour les fonctions de l'API.
-- `src\main\java...\repository\` : Contient les classes utilisées dans les services pour stocker les données dans la base de données et effectuer des requêtes SQL si nécessaire.
+- `src\main\java\...\entities\` : Contient les classes d'entités Spring Boot.
+- `src\main\java\...\resources\` : Contient les classes avec les endpoints de l'API Spring Boot.
+- `src\main\java\...\services\` : Contient les classes utilisées dans les ressources pour les fonctions de l'API.
+- `src\main\java\...\repository\` : Contient les classes utilisées dans les services pour stocker les données dans la base de données et effectuer des requêtes SQL si nécessaire.
 
 ## Lancement du Projet
 Pour lancer le projet, exécutez la classe `DemoApplication.java`.
