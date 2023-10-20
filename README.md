@@ -37,7 +37,13 @@ Le but de ce projet est de créer une application cross-plateform permettant de 
 - `src\main\java\...\repository\` : Contient les classes utilisées dans les services pour stocker les données dans la base de données et effectuer des requêtes SQL si nécessaire.
 
 ## Lancement du Projet
-Pour lancer le projet, exécutez la classe `DemoApplication.java`.
+Pour lancer le projet, exécutez la classe `DemoApplication.java` dans le back.
+  - **conseil : pour le bon fonctionnement du projet supprimer votre ancienne bdd h2 si l'url est la même**
+  - Pensez à utiliser les endpoints suivant pour initaliser le projet :
+    - `http://localhost:8080/meals/many` + liste de plats en JSON dans le body
+    - `http://localhost:8080/category/many` + liste de category en JSON dans le body
+    - `http://localhost:8080/allergen/many` + liste d'allergens en JSON dans le body
+    - les JSON sont disponibles dans le `~demo\src\main\resources`
 
 ## Utilisation Frontend
 1. Exécutez l'application : `npm start`
