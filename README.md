@@ -47,3 +47,6 @@ Pour lancer le projet, exécutez la classe `DemoApplication.java`.
 - [Lien du projet Postman](https://delivecrous.postman.co/workspace/New-Team-Workspace~26a00c14-d4b7-4683-b4c8-0b008900cf41/collection/29512453-3f0e4334-75a6-41f3-8e50-223888663dac?action=share&creator=29512453)
 
 N'hésitez pas à explorer notre projet et à nous contacter pour toute question ou suggestion.
+- lemariebast@gmail.com
+- thomas.cazin16@gmail.com
+- tomberanger01@gmail.com
