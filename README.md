@@ -5,6 +5,11 @@
 - Thomas CAZIN (dev front)
 - Bastien LEMARIÉ (dev back)
 
+## Table des matières
+- [Description](#description)
+- [Configuration](#configuration)
+- [Installation Frontend](#installationfrontend)
+
 ## Description
 Le but de ce projet est de créer une application cross-plateform permettant de faire une commande de repas. Nous avons plusieurs écrans :
 
@@ -26,6 +31,10 @@ Le but de ce projet est de créer une application cross-plateform permettant de 
 - Utilisation de Java avec Spring Boot pour créer une API REST conformément aux spécifications du projet.
 - Utilisation d'une base de données H2 embarquée, conforme aux exigences du projet.
 
+## Installation Frontend
+1. Accédez au répertoire du projet : `cd delivery`
+2. Installez les dépendances : `npm install react`, `npm install react-native` `npm install react-native-elements`, `npm install react-native-vector-icons/FontAwesome`, `npm install axios`
+
 ## Architecture Backend
 - `src\main\java\...\entities\` : Contient les classes d'entités Spring Boot.
 - `src\main\java\...\resources\` : Contient les classes avec les endpoints de l'API Spring Boot.
@@ -34,6 +43,11 @@ Le but de ce projet est de créer une application cross-plateform permettant de 
 
 ## Lancement du Projet
 Pour lancer le projet, exécutez la classe `DemoApplication.java`.
+
+## Utilisation Frontend
+1. Exécutez l'application : `npm start`
+2. Ouvrez un navigateur ou utilisez Expo et accédez à `http://localhost:8080`
+3. Vous verrez l'écran d'accueil de l'application.
 
 ## Logiciels Utilisés
 - VSCode pour la programmation.
