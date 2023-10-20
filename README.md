@@ -5,11 +5,6 @@
 - Thomas CAZIN (dev front)
 - Bastien LEMARIÉ (dev back)
 
-## Table des matières
-- [Description](#description)
-- [Configuration](#configuration)
-- [Installation Frontend](#installationfrontend)
-
 ## Description
 Le but de ce projet est de créer une application cross-plateform permettant de faire une commande de repas. Nous avons plusieurs écrans :
 
